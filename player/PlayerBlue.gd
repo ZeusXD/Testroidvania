@@ -12,7 +12,7 @@ const FLOOR = Vector2(0, -1)
 
 var velocity = Vector2.ZERO
 onready var animPlayer = $AnimatedSprite
-	
+
 func _physics_process(delta):
 	var input_x = Input.get_action_strength("ui_right") - Input.get_action_strength("ui_left")
 	var input_y = Input.get_action_strength("ui_up")
@@ -39,7 +39,7 @@ func _physics_process(delta):
 	if input_y != 0 and is_on_floor():
 		velocity.y = 0
 		velocity.y = -JUMPSPEED
-
+	
 	velocity.y += GRAVITY
 	
 	velocity = move_and_slide(velocity, Vector2.UP)
