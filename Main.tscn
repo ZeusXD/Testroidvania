@@ -58,7 +58,7 @@ points = PoolVector2Array( 26, 25, 0, 25, 0, 0, 26, 0 )
 [node name="Main" type="Node2D"]
 
 [node name="PlayerBlue" parent="." instance=ExtResource( 1 )]
-position = Vector2( 49, 269 )
+position = Vector2( 59, 282 )
 z_index = 1
 
 [node name="TileMap" type="TileMap" parent="."]
@@ -66,15 +66,14 @@ z_index = 1
 tile_set = SubResource( 2 )
 cell_size = Vector2( 71, 24 )
 format = 1
-tile_data = PoolIntArray( 524290, 0, 0, 524291, 536870912, 0, 524292, 536870913, 0, 524295, 0, 0, 589830, 0, 0, 655365, 0, 0, 720900, 0, 0, 786435, 0, 0, 917504, 0, 0, 917505, 0, 0, 917506, 0, 0, 917507, 0, 0, 917508, 0, 0, 917509, 0, 0, 917510, 0, 0, 917511, 0, 0, 917512, 0, 0 )
+tile_data = PoolIntArray( 196610, 1, 0, 196611, 1, 0, 196613, 0, 0, 262145, 1, 0, 393216, 1, 0, 458753, 1, 0, 524290, 0, 0, 524291, 536870912, 0, 524292, 536870913, 0, 524295, 0, 0, 589830, 0, 0, 655361, 1, 0, 655365, 0, 0, 720900, 0, 0, 786435, 0, 0, 917504, 0, 0, 917505, 0, 0, 917506, 0, 0, 917507, 0, 0, 917508, 0, 0, 917509, 0, 0, 917510, 0, 0, 917511, 0, 0, 917512, 0, 0 )
 
 [node name="TextureRect" type="TextureRect" parent="."]
-margin_left = 1.0
-margin_top = 3.0
-margin_right = 638.0
+margin_right = 640.0
 margin_bottom = 337.0
 texture = ExtResource( 4 )
 stretch_mode = 1
 __meta__ = {
+"_edit_lock_": true,
 "_edit_use_anchors_": false
 }
