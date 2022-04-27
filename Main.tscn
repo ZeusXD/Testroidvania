@@ -1,6 +1,6 @@
 [gd_scene load_steps=8 format=2]
 
-[ext_resource path="res://player/PlayerKuro.tscn" type="PackedScene" id=1]
+[ext_resource path="res://player/PlayerBlue.tscn" type="PackedScene" id=1]
 [ext_resource path="res://images/ground/ground_yellow.png" type="Texture" id=2]
 [ext_resource path="res://images/ground/ground_yellow_cube.png" type="Texture" id=3]
 [ext_resource path="res://images/background/background_layer_3.png" type="Texture" id=4]
@@ -74,5 +74,5 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="PlayerKuro" parent="." instance=ExtResource( 1 )]
-position = Vector2( 54, 297 )
+[node name="PlayerBlue" parent="." instance=ExtResource( 1 )]
+position = Vector2( 58, 281 )
